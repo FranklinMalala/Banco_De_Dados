@@ -1,0 +1,15 @@
+--Insercao de dados na tabela Usuarios-------------------
+insert into usuario (usu_tx_senha, usu_tx_nome_usuario)
+values ('123456678', 'Lucas Santos');
+
+insert into usuario (usu_tx_senha, usu_tx_nome_usuario)
+values ('9382198312', 'Rafaela nunes');
+
+insert into usuario (usu_tx_senha, usu_tx_nome_usuario)
+values ('321983231', 'Pedro paulo');
+
+insert into usuario (usu_tx_senha, usu_tx_nome_usuario)
+values ('309812309', 'Agatha Delatorre');
+
+insert into usuario (usu_tx_senha, usu_tx_nome_usuario)
+values ('2983912332', 'Bruno Carvaho');

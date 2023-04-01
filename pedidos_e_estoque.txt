@@ -1,0 +1,31 @@
+--Insercao de dados na estoque-------------------
+insert into estoque (est_int_quantidade)
+values ('432');
+
+insert into estoque (est_int_quantidade)
+values ('765');
+
+insert into estoque (est_int_quantidade)
+values ('234');
+
+insert into estoque (est_int_quantidade)
+values ('121');
+
+insert into produto (est_int_quantidade)
+values ('987');
+
+--pedido-------------------
+insert into pedido (ped_dt_ deta_ pedido, ped_tx_codigo_ped)
+values ('73645903');
+
+insert into pedido (ped_tx_codigo_ped)
+values ('91472937');
+
+insert into pedido (ped_tx_codigo_ped)
+values ('26384722');
+
+insert into pedido (ped_tx_codigo_ped)
+values ('47293743');
+
+insert into pedido (ped_tx_codigo_ped)
+values ('78492327');

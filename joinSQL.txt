@@ -1,0 +1,10 @@
+--join para saber a quantida de estoque de um produto--------------------
+select produto.prod_tx_nome_prod, produto.prod_int_codigo_prod, estoque.est_int_quantidade
+from produto 
+join estoque  on produto.prod_cd_id  = estoque.est_cd_id;
+
+--join para saber o endereco do cliente--------------------------------------
+select cliente.cli_tx_nome_cli , endereco.end_int_cep, endereco.end_itx_rua  , endereco.end_int_num ,
+endereco.end_tx_comp, endereco.end_tx_cidade, endereco.end_tx_estado 
+from cliente
+join endereco  on cliente.cli_cd_id = endereco.end_cd_id;
